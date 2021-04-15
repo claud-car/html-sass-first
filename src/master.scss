@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+$ciao: blue;
+$prova:flex;
+$center: center;
+
+h1{
+  color: $ciao;
+  text-align: $center;
+}
+
+p{
+  color: $ciao;
+  display: $prova;
+}
+
+div{
+  display: $prova;
+  align-items: $center;
+  height: 200px;
+}
+
+.prova{
+  display: block;
+  color: $ciao;
+  display: $prova;
+  justify-content: $center;
+}
